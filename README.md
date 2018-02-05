@@ -12,4 +12,8 @@ stash 是什么？stash是现在工作区未提交到暂存区改变的快照，
 等修复了其余的问题，可以使用git stash list查看有些保存起来的快照。
 可以使用git stash pop恢复最近的快照或者使用 git stash apply恢复，但是恢复后，stash内容并不删除，你需要用git stash drop来删除
 
+---这是主线的修改
 这里有个bug
+---这是testStash的修改
+第二次测试stash
+
